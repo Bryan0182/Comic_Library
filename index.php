@@ -10,6 +10,6 @@
 <body>
     <?php $page = 'login'; include './assets/php/header.php';?>
     
-    <?php $page = 'login'; include './assets/php/footer.php';?>
+    <?php include './assets/php/footer.php';?>
 </body>
 </html>
