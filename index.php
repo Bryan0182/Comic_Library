@@ -8,9 +8,8 @@
     <title>Comic Libary</title>
 </head>
 <body>
-    <div id="page">
-    <div id="header">test</div>
-    <div id="footer"></div>
-    </div>
+    <?php $page = 'login'; include './assets/php/header.php';?>
+    
+    <?php $page = 'login'; include './assets/php/footer.php';?>
 </body>
 </html>
